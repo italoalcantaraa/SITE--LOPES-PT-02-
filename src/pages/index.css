@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'fonte';
+}
+.cabecalho{
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.c-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    width: 100%;
+}
+.c-1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.c-1 span{
+    font-weight:bold;
+}
+.c-1 img{
+    max-width: 400px;
+    width: 100%;
+}
+.c-2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#img1{
+    max-width: 220px;
+    width: 100%;
+    margin: 7px;
+}
+#img2{
+    max-width: 200px;
+    width: 100%;
+    margin: 7px;
+}
+@media(max-width:970px){
+    .cabecalho{
+        flex-direction: column;
+    }
+}
+@media(max-width:580px){
+    .c-2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.titulo{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.82);
+    flex-direction: column;
+    
+
+}
+.titulo span{
+    color: #eb194b;
+}
+.titulo h1{
+    font-size: 39px;
+    max-width: 1000px;
+    width: 100%;
+}
+@media (max-width:500px){
+    .titulo h1{
+        font-size: 30px;
+        color: black;
+        margin-bottom: 15px;
+    }
+}
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dados div{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+}
+.dados h6{
+    color: #eb194b;
+    font-size: 25px;
+}
+.dados h4{
+    max-width: 310px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.773);
+}
+.dados H1{
+    color:#eb194b;
+    font-size: 24px;
+}
+.dados span{
+    color: #eb194b;
+}
+.dados img{
+    max-width: 300px;
+    width: 100%;
+    margin-top: 5px;
+}
+#img1{
+    margin-top: 22px;
+}
+@media(max-width:950px){
+    .dados{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.rodape{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eb194b;
+    color: #fff;
+    align-items: center;
+    padding: 80px 60px 40px 30px;
+}
+.rodape div{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+}
+.rodape img{
+    width: 50px;
+}
+.rodape p{
+    font-size: 20px;
+    font-family: 'fonte2';
+}
+.rodape h1{
+    max-width: 280px;
+    width: 100%;
+}
+@media(max-width:940px){
+    .rodape{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape h1{
+        margin-bottom: 50px;
+    }
+}
